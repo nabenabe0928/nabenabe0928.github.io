@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="utf-8">
+   <title>Shuhei Watanabe / Homepage</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/bootstrap-social.css">
+   <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+   <script type="text/javascript" src="js/bootstrap.js"></script>
+   <style media="screen">
+        .skyblue{
+        background: skyblue;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        }
+        .pink{
+        background: pink;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        }
+   </style>
+</head>
+<body>
+    <br>
+    <br>
+    <div class="container">
+        <h1>Shuhei Watanabe</h1>
+        <ul id="MyTabs" class="nav nav-tabs">
+            <li role="presentation" class="active">
+                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+            </li>
+            <li role="presentation">
+                    <a href="#research" aria-controls="reserach" role="tab" data-toggle="tab">Research</a>
+            </li>
+            <li role="presentation">
+                    <a href="#software" aria-controls="software" role="tab" data-toggle="tab">Software</a>
+            </li>
+        </ul>
+
+        <!-- The contents of tabs -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <br>
+                <h2>Home</h2>
+                <p>I'm a Master student at the University of Freiburg.</p>
+                <a href="https://github.com/nabenabe0928" target="_blank" class="btn btn-social-icon btn-github">
+                    <span class="fa fa-github"></span>Github</a>
+                <a href="https://scholar.google.com/citations?hl=en&user=jqKQ2xoAAAAJ" target="_blank" class="btn text-primary">Google Scholar</a>
+                <a href="#" target="_blank" class="btn text-primary">LinkedIn</a>
+                <a href="https://qiita.com/nabenabe0928" target="_blank" class="btn text-primary">Qiita</a>
+                </div>
+            <div role="tabpanel" class="tab-pane" id="research">
+                <br>
+                <h2>Research</h2>
+                <br>
+                <h3>Publications</h3>
+                <p>I'm a Master student at the University of Freiburg.</p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="software">
+                <br>
+                <h2>Software</h2>
+                <p>I'm a Master student at the University of Freiburg.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- The function to switch tabs -->
+    <script type="text/javascript">
+        $("#MyTabs a").click(function (e){
+            e.preventDefault()
+            $(this).tab("show")
+        })
+    </script>
+
+    <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navi" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+
+              <div class="collapse navbar-collapse" id="bs-navi">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">ホーム</a></li>
+                  <li><a href="#">会社情報</a></li>
+                  <li><a href="#">お客様の声</a></li>
+                  <li><a href="#">ブログ</a></li>
+                  <li><a href="#">お問い合わせ</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+</body>
+</html>

@@ -17,3 +17,12 @@
 .mb2{
     margin-bottom: 2em;
 }
+
+.paper-title {
+    margin-bottom: 0.1em;
+}
+
+.paper-description {
+    margin-bottom: 0.5em;
+    color: #777777;
+}

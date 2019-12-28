@@ -7,6 +7,7 @@
    <link rel="stylesheet" href="css/bootstrap.css">
    <link rel="stylesheet" href="css/bootstrap-social.css">
    <link rel="stylesheet" href="css/font-awesome.css">
+   <link rel="stylesheet" href="css/my-style.css">
    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
    <script type="text/javascript" src="js/bootstrap.js"></script>
    <style media="screen">
@@ -25,50 +26,178 @@
    </style>
 </head>
 <body>
-    <br>
-    <br>
+    <p class="mb2"></p>
     <div class="container">
         <h1>Shuhei Watanabe</h1>
-        <ul id="MyTabs" class="nav nav-tabs">
-            <li role="presentation" class="active">
-                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+        <p class="mb15"></p>
+        <ul id="MyTabs" class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
             </li>
-            <li role="presentation">
-                    <a href="#research" aria-controls="reserach" role="tab" data-toggle="tab">Research</a>
+            <li class="nav-item">
+                    <a class="nav-link" href="#research" aria-controls="reserach" role="tab" data-toggle="tab">Research</a>
             </li>
-            <li role="presentation">
-                    <a href="#software" aria-controls="software" role="tab" data-toggle="tab">Software</a>
+            <li class="nav-item">
+                    <a class="nav-link" href="#software" aria-controls="software" role="tab" data-toggle="tab">Software</a>
             </li>
         </ul>
 
         <!-- The contents of tabs -->
         <div class="tab-content">
+
+            <!-- Home -->
             <div role="tabpanel" class="tab-pane active" id="home">
-                <br>
-                <h2>Home</h2>
-                <p>I'm a Master student at the University of Freiburg.</p>
-                <a href="https://github.com/nabenabe0928" target="_blank" class="btn btn-social btn-github">
-                    <span class="fa fa-github"></span>Github</a>
-                <a href="https://scholar.google.com/citations?hl=en&user=jqKQ2xoAAAAJ" target="_blank" class="btn btn-social btn-google">
-                  <span class="fa fa-google"></span>Google Scholar</a>
-                <a href="#" target="_blank" class="btn btn-social btn-linkedin">
-                  <span class="fa fa-linkedin"></span>LinkedIn</a>
-                <a href="https://qiita.com/nabenabe0928" target="_blank" class="btn btn-success">Qiita</a>
+                <p class="mb1"></p>
+                
+                <!-- Self Introduction -->
+                <h2>Brief Biography</h2>
+                <p class="mb1">I finished my Bachelor at the University of Tokyo, Systems Innovation Faculty supervised by 
+                  <a href="http://www.scslab.k.u-tokyo.ac.jp/reference.html">Prof. Chen Yu</a>. 
+                  Currently, I'm a Master student at the University of Freiburg, Computer Science supervised by 
+                  <a href="http://scholar.google.com/citations?user=YUrxwrkAAAAJ&hl=en" target="_blank">Prof. Frank Hutter</a>.
+                </p>
+                <p><a href="https://drive.google.com/open?id=155qq3XEwxx_6pt2Nd295wqDZfZjVq4wh" target="_blank" class="btn btn-success">Download CV</a></p>
+                
+                <!-- Education -->
+                <h2>Education</h2>
+                  <!-- Master -->
+                  <p class="mb05"><div class="row">
+                    <div class="col-xs-3 col-md-3 col-lg-3">09.2020 -</div>
+                    <div class="col-xs-8 col-md-8 col-lg-8">The University of Freiburg, Master of Computer Science</div>
+                  </div></p>
+                  
+                  <!-- Engineering -->
+                  <p class="mb05"><div class="row">
+                      <div class="col-xs-3 col-md-3 col-lg-3">09.2015 - 03.2020</div>
+                      <div class="col-xs-8 col-md-8 col-lg-8">The University of Tokyo, Bachelor of Systems Innovation (The best grades out of 36 students.)</div>
+                  </div></p>
+                  
+                  <!-- Arts and Science -->
+                  <p class="mb05"><div class="row">
+                      <div class="col-xs-3 col-md-3 col-lg-3">04.2014 - 08.2015</div>
+                      <div class="col-xs-8 col-md-8 col-lg-8">The University of Tokyo, Bachelor of College of Arts and Science, Natural Science 1</div>
+                  </div></p>
+                  <p class="mb1"></p>
+
+                <!-- Honors -->
+                <h2>Honors / Awards</h2>
+                  <!-- Ito -->
+                  <p class="mb05"><div class="row">
+                      <div class="col-xs-3 col-md-3 col-lg-3">10.2020 - 09.2022</div>
+                      <div class="col-xs-8 col-md-8 col-lg-8">ITO Foundation of International Education Exchange (2000 USD/Month).
+                        The acceptance rate was about 6.2% (= 12/193).
+                      </div>
+                  </div></p>
+
+                  <!-- PRMU -->
+                  <p class="mb05"><div class="row">
+                      <div class="col-xs-3 col-md-3 col-lg-3">05.2019</div>
+                      <div class="col-xs-8 col-md-8 col-lg-8">PRMU 2018 Yearly Research Encouragement Award for the paper Speed up of Hyperparameter Tuning with Nelder-Mead Method by Parallel Computing.
+                          The acceptance rate was about 1.8% (= 3/170).
+                      </div>
+                  </div></p>
+
+                  <!-- Taido -->
+                  <p class="mb05"><div class="row">
+                      <div class="col-xs-3 col-md-3 col-lg-3">10.2014</div>
+                      <div class="col-xs-8 col-md-8 col-lg-8">1st Prize in the Freshman team Hokei in the National Intercollegiate Taido Tournament.</div>
+                  </div></p>
+                  <p class="mb1"></p>
+                
+                <!-- Language Skills -->
+                <h2>Language Skills</h2>
+
+                <!-- Japanese -->
+                <p class="mb05"><div class="row">
+                    <div class="col-xs-3 col-md-3 col-lg-3">Japanese</div>
+                    <div class="col-xs-8 col-md-8 col-lg-8">
+                      <p class="mb0">Mother Tongue</p> 
+                    </div>
+                </div></p>
+
+                <!-- English -->
+                <p class="mb05"><div class="row">
+                  <div class="col-xs-3 col-md-3 col-lg-3">English</div>
+                  <div class="col-xs-8 col-md-8 col-lg-8">
+                    <p class="mb0">C1</p> 
+                    <p class="mb0">TOEFL iBT in 06.2019: R:29, L:25, S:22, W:24</p>
+                    <p class="mb0">GRE in 11.2019: V:152, Q:168, AWA:4.0</p>
+                  </div>
+                </div></p>
+
+                <!-- German -->
+                <p class="mb05"><div class="row">
+                  <div class="col-xs-3 col-md-3 col-lg-3">German</div>
+                  <div class="col-xs-8 col-md-8 col-lg-8">
+                    <p class="mb0">B1</p> 
+                  </div>
+                </div></p>
+
+                <!-- French -->
+                <p class="mb05"><div class="row">
+                  <div class="col-xs-3 col-md-3 col-lg-3">French</div>
+                  <div class="col-xs-8 col-md-8 col-lg-8">
+                    <p class="mb0">A2</p> 
+                  </div>
+                </div></p>
+
+                <p class="mb1"></p>
                 </div>
+            
+            <!-- Research -->
             <div role="tabpanel" class="tab-pane" id="research">
-                <br>
-                <h2>Research</h2>
-                <br>
-                <h3>Publications</h3>
-                <p>I'm a Master student at the University of Freiburg.</p>
+                <p class="mb1"></p>
+              
+                <h2>Conference Publications</h2>
+                <p class="mb05">Shuhei Watanabe, Yoshihiko Ozaki, Masaki Onishi (2019).
+                    Speeding up of the Nelder-Mead Method by Data-driven Speculative Execution.
+                    Asian Conference on Pattern Recognition (ACPR2019).
+                    Oral Presentation.
+                </p>
+
+                <h2>Workshop Publications</h2>
+                <p class="mb05">Yoshihiko Ozaki, Shuhei Watanabe, Masaki Onishi (2019).
+                    Accelerating the Nelder-Mead Method with Predictive Evaluation.
+                    6th ICML Workshop on Automated Machine Learning (AutoML2019).
+                </p>
+
+                <p class="mb05">Masahiro Nomura, Shuhei Watanabe, Yoshihiko Ozaki, Masaki Onishi (2019).
+                    Warm Starting Method for CMA-ES. 
+                    Workshop on Meta-Learning at NeurIPS 2019 (MetaLearn2019).
+                </p>
+
+                <h2>Non-peer Reviewd Publications</h2>
+                <p class="mb05">Shuhei Watanabe, Yoshihiko Ozaki, Masaki Onishi (2019).
+                    Speed up of Hyperparameter Tuning with Nelder-Mead Method by Parallel Computing.
+                    Pattern Recognition and Media Understanding (PRMU2019).
+                    PRMU 2018 Yearly Research Encouragement Award.
+                </p>
+
+                <h2>Theses</h2>
+
             </div>
+
+            <!-- software -->
             <div role="tabpanel" class="tab-pane" id="software">
-                <br>
+                <p class="mb2"></p>
                 <h2>Software</h2>
                 <p>I'm a Master student at the University of Freiburg.</p>
-            </div>
+            </div><p class="mb2"></p>
         </div>
     </div>
+
+    <p class="mb2"></p>
+    <div class="container">
+      <!-- Social media -->
+      <a href="https://github.com/nabenabe0928" target="_blank" class="btn btn-social btn-github">
+          <span class="fa fa-github"></span>Github</a>
+      <a href="https://scholar.google.com/citations?hl=en&user=jqKQ2xoAAAAJ" target="_blank" class="btn btn-social btn-google">
+        <span class="fa fa-google"></span>Google Scholar</a>
+      <a href="#" target="_blank" class="btn btn-social btn-linkedin">
+        <span class="fa fa-linkedin"></span>LinkedIn</a>
+      <a href="https://qiita.com/nabenabe0928" target="_blank" class="btn btn-success">Qiita</a>
+    </div>
+    <p class="mb2"></p>
 
     <!-- The function to switch tabs -->
     <script type="text/javascript">
@@ -78,27 +207,5 @@
         })
     </script>
 
-    <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navi" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div>
-
-              <div class="collapse navbar-collapse" id="bs-navi">
-                <ul class="nav navbar-nav">
-                  <li><a href="#">ホーム</a></li>
-                  <li><a href="#">会社情報</a></li>
-                  <li><a href="#">お客様の声</a></li>
-                  <li><a href="#">ブログ</a></li>
-                  <li><a href="#">お問い合わせ</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
 </body>
 </html>

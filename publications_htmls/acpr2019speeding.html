@@ -28,189 +28,244 @@
   </style>
 </head>
 
-<body>
-  <p class="mb2"></p>
-  <div class="container">
-    <h1>Shuhei Watanabe</h1>
-    <p class="mb15"></p>
-    <ul id="MyTabs" class="nav nav-pills nav-fill">
-      <li class="nav-item">
-        <a class="nav-link" href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#research" aria-controls="reserach" role="tab" data-toggle="tab">Research</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#software" aria-controls="software" role="tab" data-toggle="tab">Software</a>
-      </li>
-    </ul>
-
-    <!-- The contents of tabs -->
-    <div class="tab-content">
-
-      <!-- Home -->
-      <div role="tabpanel" class="tab-pane" id="home">
-        <p class="mb1"></p>
-
-        <!-- Self Introduction -->
-        <h2>Brief Biography</h2>
-        <p class="mb1">I finished my Bachelor at the University of Tokyo, Systems Innovation Faculty supervised by
-          <a href="http://www.scslab.k.u-tokyo.ac.jp/reference.html">Prof. Chen Yu</a>.
-          Currently, I'm a Master student at the University of Freiburg, Computer Science supervised by
-          <a href="http://scholar.google.com/citations?user=YUrxwrkAAAAJ&hl=en" target="_blank">Prof. Frank Hutter</a>.
-        </p>
-        <p><a href="https://drive.google.com/open?id=155qq3XEwxx_6pt2Nd295wqDZfZjVq4wh" target="_blank"
-            class="btn btn-success">Download CV</a></p>
-
-        <!-- Education -->
-        <h2>Education</h2>
-        <!-- Master -->
-        <p class="mb05">
-          <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3">09.2020 -</div>
-            <div class="col-xs-8 col-md-8 col-lg-8">The University of Freiburg, Master of Computer Science</div>
+<body class="d-flex flex-column" style="min-height: 100vh">
+  <header>
+    <nav class="nabvar nabvar-dark bg-dark">
+      <div class="container">
+        <br>
+        <a class="navbar-brand text-white" href="../index.html">
+          <font size="+3">Shuhei Watanabe</font>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu"
+          aria-controls="navmenu1" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="text-white">Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link text-white" href="../index.html">Home</a>
+            <a class="nav-item nav-link text-white" href="../research.html">Research Experiences</a>
+            <a class="nav-item nav-link text-white" href="../software.html">Past Softwares</a>
           </div>
-        </p>
-
-        <!-- Engineering -->
-        <p class="mb05">
-          <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3">09.2015 - 03.2020</div>
-            <div class="col-xs-8 col-md-8 col-lg-8">The University of Tokyo, Bachelor of Systems Innovation (The best
-              grades out of 36 students.)</div>
-          </div>
-        </p>
-
-        <!-- Arts and Science -->
-        <p class="mb05">
-          <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3">04.2014 - 08.2015</div>
-            <div class="col-xs-8 col-md-8 col-lg-8">The University of Tokyo, Bachelor of College of Arts and Science,
-              Natural Science 1</div>
-          </div>
-        </p>
-        <p class="mb1"></p>
-
-        <!-- Honors -->
-        <h2>Honors / Awards</h2>
-        <!-- Ito -->
-        <p class="mb05">
-          <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3">10.2020 - 09.2022</div>
-            <div class="col-xs-8 col-md-8 col-lg-8">ITO Foundation of International Education Exchange (2000 USD/Month).
-              The acceptance rate was about 6.2% (= 12/193).
-            </div>
-          </div>
-        </p>
-
-        <!-- PRMU -->
-        <p class="mb05">
-          <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3">05.2019</div>
-            <div class="col-xs-8 col-md-8 col-lg-8">PRMU 2018 Yearly Research Encouragement Award for the paper Speed up
-              of Hyperparameter Tuning with Nelder-Mead Method by Parallel Computing.
-              The acceptance rate was about 1.8% (= 3/170).
-            </div>
-          </div>
-        </p>
-
-        <!-- Taido -->
-        <p class="mb05">
-          <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3">10.2014</div>
-            <div class="col-xs-8 col-md-8 col-lg-8">1st Prize in the Freshman team Hokei in the National Intercollegiate
-              Taido Tournament.</div>
-          </div>
-        </p>
-        <p class="mb1"></p>
-
-        <!-- Language Skills -->
-        <h2>Language Skills</h2>
-
-        <!-- Japanese -->
-        <p class="mb05">
-          <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3">Japanese</div>
-            <div class="col-xs-8 col-md-8 col-lg-8">
-              <p class="mb0">Mother Tongue</p>
-            </div>
-          </div>
-        </p>
-
-        <!-- English -->
-        <p class="mb05">
-          <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3">English</div>
-            <div class="col-xs-8 col-md-8 col-lg-8">
-              <p class="mb0">C1</p>
-              <p class="mb0">TOEFL iBT in 06.2019: R:29, L:25, S:22, W:24</p>
-              <p class="mb0">GRE in 11.2019: V:152, Q:168, AWA:4.0</p>
-            </div>
-          </div>
-        </p>
-
-        <!-- German -->
-        <p class="mb05">
-          <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3">German</div>
-            <div class="col-xs-8 col-md-8 col-lg-8">
-              <p class="mb0">B1</p>
-            </div>
-          </div>
-        </p>
-
-        <!-- French -->
-        <p class="mb05">
-          <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3">French</div>
-            <div class="col-xs-8 col-md-8 col-lg-8">
-              <p class="mb0">A2</p>
-            </div>
-          </div>
-        </p>
-
-        <p class="mb1"></p>
+        </div>
       </div>
+    </nav>
+  </header>
 
-      <!-- Research -->
-      <div role="tabpanel" class="tab-pane active" id="research">
-        <p class="mb1"></p>
+  <!-- Research -->
+  <div class="container mb-auto">
+    <p class="mb1"></p>
+    <h2>Speeding up of the Nelder-Mead Method by Data-driven Speculative Execution</h2>
+    <p>Asian Conference on Pattern Recognition (ACPR2019)</p>
 
-        <h3>Speeding up of the Nelder-Mead Method by Data-driven Speculative Execution</h3>
+    <a href="" onclick="alert('PDF is not available now.');" class="btn btn-secondary">Download PDF</a>
+    <a class="btn btn-success" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false"
+      aria-controls="bibtex">
+      Show Bibtex
+    </a>
+    <a href="" onclick="alert('The code is not available now.');" class="btn btn-secondary">Experimental Codes</a>
+    <div class="collapse" id="bibtex">
+      <div class="card card-body">
+        <p class="mb0">@inproceedings{watanabe2019speeding,</p>
+        <p class="mb0">title={Speeding up of the Nelder-Mead Method by Data-driven Speculative Execution},</p>
+        <p class="mb0">author={Shuhei, Watanabe and Yoshihiko, Ozaki and Yoshiaki, Bando and Masaki, Onishi},</p>
+        <p class="mb0">booktitle={Asian Conference on Pattern Recognition},</p>
+        <p class="mb0">year={2019}</p>
+        <p class="mb0">}</p>
       </div>
-
-      <!-- software -->
-      <div role="tabpanel" class="tab-pane" id="software">
-        <p class="mb2"></p>
-        <h2>Software</h2>
-        <p>I'm a Master student at the University of Freiburg.</p>
-      </div>
-      <p class="mb2"></p>
     </div>
+
+    <p class="mb1"></p>
+
+    <h3>Authors</h3>
+    <div class="container mb1">
+      <li><b>Shuhei Watanabe</b></li>
+      <li>Yoshihiko Ozaki</li>
+      <li>Yoshiaki Bando</li>
+      <li>Masaki Onishi</li>
+    </div>
+
+    <h3>Abstract</h3>
+    <div class="container" align="justify">
+      <p class="mb2">The performance of machine learning algorithms considerably depends on the hyperparameter
+        configurations.
+        Previous studies reported that the Nelder-Mead (NM) method known as a local search method requires a small
+        number
+        of evaluations to converge and that these properties enable achieving considerable success in the hyperparameter
+        optimization (HPO) of machine learning algorithms for image recognition.
+        However, most evaluations using the NM method need to be implemented sequentially, which requires a large amount
+        of time.
+        To alleviate the problem that the NM method cannot be computed in parallel, we propose a data-driven
+        speculative execution method based on the statistical features of the NM method.
+        We analyze the behaviors of the NM method on several benchmark functions and experimentally demonstrated that
+        the
+        NM method tends to take certain specific operations.
+        The experimental results show that the proposed method reduced the elapsed time by approximately 50% and the
+        number of evaluations by approximately 60% compared to the naive speculative execution. </p>
+    </div>
+
+    <h3>Request for this paper</h3>
+    <div class="row">
+      <div class="col-xs-11 col-md-11 col-lg-11">
+        <form class="form-horizontal">
+          <!-- method="post" action="utf8/mail.php" -->
+          <div class="form-group">
+            <label for="input-name" class="col-xs-11 col-md-11 col-lg-11 control-label">Your Name</label>
+            <div class="col-xs-11 col-md-11 col-lg-11">
+              <input name="Your Name" type="text" class="form-control" id="input-name" placeholder="Your Name"
+                required="required">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="input-mail" class="col-xs-11 col-md-11 col-lg-11 control-label">Your E-mail Address</label>
+            <div class="col-xs-11 col-md-11 col-lg-11">
+              <input name="Your E-mail" type="email" class="form-control" id="input-mail"
+                placeholder="Your E-mail Address" required="required">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-11 col-md-11 col-lg-11 control-label">Your Question/Suggestion</label>
+            <div class="col-xs-11 col-md-11 col-lg-11">
+              <select name="Your Question/Suggestion" class="form-control">
+                <option value="">Choose your question/suggestion</option>
+                <option value="codes">1. Implemented Codes</option>
+                <option value="pdf">2. PDF</option>
+                <option value="comments">3. Comments/suggestions</option>
+                <option value="questions">4. Questions regarding to the method</option>
+                <option value="others">5. Others</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-11 col-md-11 col-lg-11 control-label">The detail of your question/suggestion</label>
+            <div class="col-xs-11 col-md-11 col-lg-11">
+              <textarea name="The detail of your question/suggestion" class="form-control" rows="5"
+                required="required"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-11 col-md-11 col-lg-11">
+              <button type="submit" class="btn btn-primary" onclick="return validate()">submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
   </div>
 
-  <p class="mb2"></p>
-  <div class="container">
-    <!-- Social media -->
-    <a href="https://github.com/nabenabe0928" target="_blank" class="btn btn-social btn-github">
-      <span class="fa fa-github"></span>Github</a>
-    <a href="https://scholar.google.com/citations?hl=en&user=jqKQ2xoAAAAJ" target="_blank"
-      class="btn btn-social btn-google">
-      <span class="fa fa-google"></span>Google Scholar</a>
-    <a href="#" target="_blank" class="btn btn-social btn-linkedin">
-      <span class="fa fa-linkedin"></span>LinkedIn</a>
-    <a href="https://qiita.com/nabenabe0928" target="_blank" class="btn btn-success">Qiita</a>
-  </div>
-  <p class="mb2"></p>
+  <script>
+    // http://reusableforms.com/d/e1/bootstrap-contact-form-send-email
+    $(function () {
+      function after_form_submitted(data) {
 
-  <!-- The function to switch tabs -->
-  <script type="text/javascript">
-    $("#MyTabs a").click(function (e) {
-      e.preventDefault()
-      $(this).tab("show")
-    })
+        if (data.result == 'success') {
+          $('form#reused_form').hide();
+          $('#success_message').show();
+          $('#error_message').hide();
+        }
+        else {
+          $('#error_message').append('<ul></ul>');
+
+          jQuery.each(data.errors, function (key, val) {
+            $('#error_message ul').append('<li>' + key + ':' + val + '</li>');
+          });
+          $('#success_message').hide();
+          $('#error_message').show();
+
+          //reverse the response on the button
+          $('button[type="button"]', $form).each(function () {
+            $btn = $(this);
+            label = $btn.prop('orig_label');
+            if (label) {
+              $btn.prop('type', 'submit');
+              $btn.text(label);
+              $btn.prop('orig_label', '');
+            }
+          });
+
+        }//else
+      }
+
+      $('#reused_form').submit(function (e) {
+        e.preventDefault();
+
+        $form = $(this);
+        //show some response on the button
+        $('button[type="submit"]', $form).each(function () {
+          $btn = $(this);
+          $btn.prop('type', 'button');
+          $btn.prop('orig_label', $btn.text());
+          $btn.text('Sending ...');
+        });
+
+
+        $.ajax({
+          type: "POST",
+          url: 'handler.php',
+          data: $form.serialize(),
+          success: after_form_submitted,
+          dataType: 'json'
+        });
+
+      });
+    });
   </script>
 
+  <script>
+    function validate() {
+      var isValid = true;
+
+      $('textarea, input, select').each(function () {
+        if ($(this).attr("type") !== 'email') {
+          if ($(this).val() === ''){
+            isValid = false;
+          }
+        } else if ($(this).val().indexOf("@") == -1) {
+          alert("E-mail has to include @.")
+          isValid = false;
+        }
+
+      });
+      if (isValid) {
+        isValid = confirm('Do you really want to submit the form?');
+        if (isValid) { alert('The form was sent successfully!'); }
+        else { alert('The form was not sent.'); }
+        return isValid;
+      } else {
+        alert('Please fill out all the form!');
+        return isValid;
+      }
+    }
+  </script>
+
+  <footer>
+    <nav class="nabvar nabvar-dark bg-dark">
+      <div class="container">
+        <br>
+        <p class="mb1"></p>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3 col-md-3 col-lg-3 text-white">
+              <p class="mb0">@2019 Shuhei Watanabe.</p>
+              <p>All rights reserved.</p>
+            </div>
+            <div class="col-xs-8 col-md-8 col-lg-8">
+              <!-- Social media -->
+              <a href="https://github.com/nabenabe0928" target="_blank" class="btn btn-social btn-github">
+                <span class="fa fa-github"></span>Github</a>
+              <a href="https://scholar.google.com/citations?hl=en&user=jqKQ2xoAAAAJ" target="_blank"
+                class="btn btn-social btn-google">
+                <span class="fa fa-google"></span>Google Scholar</a>
+              <a href="#" target="_blank" class="btn btn-social btn-linkedin">
+                <span class="fa fa-linkedin"></span>LinkedIn</a>
+              <a href="https://qiita.com/nabenabe0928" target="_blank" class="btn btn-success">Qiita</a>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+    </nav>
+  </footer>
 </body>
 
 </html>

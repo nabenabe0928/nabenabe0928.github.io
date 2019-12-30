@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/my-style.css">
   <script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
   <script type="text/javascript" src="../js/bootstrap.js"></script>
+  <script type="text/javascript" src="../js/my_func.js"></script>
   <style media="screen">
     .skyblue {
       background: skyblue;
@@ -37,7 +38,7 @@
           <font size="+3">Shuhei Watanabe</font>
         </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu"
-          aria-controls="navmenu1" aria-expanded="false" aria-label="Toggle navigation">
+          aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="text-white">Menu</span>
         </button>
         <div class="collapse navbar-collapse" id="menu">
@@ -54,9 +55,24 @@
   <!-- Research -->
   <div class="container mb-auto">
     <p class="mb1"></p>
+    <p class="mb05"><a class="badge badge-default back-to-research" href="../research.html">Back to the list</a></p>
     <h2>Speeding up of the Nelder-Mead Method by Data-driven Speculative Execution</h2>
-    <p>Asian Conference on Pattern Recognition (ACPR2019)</p>
+    <!-- 
+      <div class="badge badge-primary">Workshop Paper</div>
+      <div class="badge badge-primary">Journal Paper</div>
+      <div class="badge badge-primary">Book</div>
+      <div class="badge badge-primary">Thesis</div>
+      <div class="badge badge-primary">Invited Talk</div>
+      <div class="badge badge-danger">Awarded</div>
+      <div class="badge badge-warning">Non Peer Reviewed</div>
+     -->
+    <div class="badge badge-primary">Conference Paper</div>
+    <div class="badge badge-success">Peer Reviewed</div>
+    <div class="badge badge-danger">Oral Presentation</div>
 
+    <p><a class="conference-name" href="https://www.acpr2019.org/" target="_blank">Asian Conference on Pattern Recognition
+        (ACPR2019)</a>
+    </p>
     <a href="" onclick="alert('PDF is not available now.');" class="btn btn-secondary">Download PDF</a>
     <a class="btn btn-success" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false"
       aria-controls="bibtex">
@@ -103,7 +119,7 @@
         number of evaluations by approximately 60% compared to the naive speculative execution. </p>
     </div>
 
-    <h3>Request for this paper</h3>
+    <h3>Request regarding this paper</h3>
     <div class="row">
       <div class="col-xs-11 col-md-11 col-lg-11">
         <form class="form-horizontal">
@@ -127,8 +143,8 @@
             <div class="col-xs-11 col-md-11 col-lg-11">
               <select name="Your Question/Suggestion" class="form-control">
                 <option value="">Choose your question/suggestion</option>
-                <option value="codes">1. Implemented Codes</option>
-                <option value="pdf">2. PDF</option>
+                <option value="codes">1. Request for the Implemented Codes</option>
+                <option value="pdf">2. Request for the PDF</option>
                 <option value="comments">3. Comments/suggestions</option>
                 <option value="questions">4. Questions regarding to the method</option>
                 <option value="others">5. Others</option>
@@ -212,30 +228,7 @@
   </script>
 
   <script>
-    function validate() {
-      var isValid = true;
-
-      $('textarea, input, select').each(function () {
-        if ($(this).attr("type") !== 'email') {
-          if ($(this).val() === ''){
-            isValid = false;
-          }
-        } else if ($(this).val().indexOf("@") == -1) {
-          alert("E-mail has to include @.")
-          isValid = false;
-        }
-
-      });
-      if (isValid) {
-        isValid = confirm('Do you really want to submit the form?');
-        if (isValid) { alert('The form was sent successfully!'); }
-        else { alert('The form was not sent.'); }
-        return isValid;
-      } else {
-        alert('Please fill out all the form!');
-        return isValid;
-      }
-    }
+    
   </script>
 
   <footer>
@@ -245,9 +238,8 @@
         <p class="mb1"></p>
         <div class="container">
           <div class="row">
-            <div class="col-xs-3 col-md-3 col-lg-3 text-white">
-              <p class="mb0">@2019 Shuhei Watanabe.</p>
-              <p>All rights reserved.</p>
+            <div class="col-xs-4 col-md-4 col-lg-4 text-white">
+              <p>&copy;2019 Copyright Shuhei Watanabe.</p>
             </div>
             <div class="col-xs-8 col-md-8 col-lg-8">
               <!-- Social media -->

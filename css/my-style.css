@@ -18,12 +18,12 @@
     margin-bottom: 2em;
 }
 
-.paper-title {
+.paper-title, .conference-name {
     margin-bottom: 0.1em;
     color: black;
 }
 
-.paper-description {
+.paper-description, .back-to-research {
     margin-bottom: 0.5em;
     color: #777777;
 }

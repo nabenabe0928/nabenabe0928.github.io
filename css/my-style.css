@@ -23,7 +23,56 @@
     color: black;
 }
 
-.paper-description, .back-to-research {
+.paper-description, .back-to-research, .any-description {
     margin-bottom: 0.5em;
     color: #777777;
+}
+
+.row--ellipse{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.langArea{
+    margin: 5px;
+}
+
+.langArea > h4{
+    text-align: center;
+}
+
+.lang-circle {
+    height: 100px;
+    line-height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    position: relative;
+}
+
+.iframe-wrap {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 120%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iframe-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.circle {
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 }

@@ -56,68 +56,61 @@
   <div class="container mb-auto">
     <p class="mb1"></p>
     <p class="mb05"><a class="badge badge-default back-to-research" href="../research.html">Back to the list</a></p>
-    <h2>Speeding up of the Nelder-Mead Method by Data-driven Speculative Execution</h2>
+    <h2>Accelerating the Nelder-Mead Method with Predictive Parallel Evaluation</h2>
     <!-- 
-      <div class="badge badge-primary">Workshop Paper</div>
       <div class="badge badge-primary">Journal Paper</div>
       <div class="badge badge-primary">Book</div>
       <div class="badge badge-primary">Thesis</div>
       <div class="badge badge-primary">Invited Talk</div>
       <div class="badge badge-danger">Awarded</div>
       <div class="badge badge-warning">Non Peer Reviewed</div>
+      <div class="badge badge-danger">Oral Presentation</div>
      -->
-    <div class="badge badge-primary">Conference Paper</div>
+    <div class="badge badge-primary">Workshop Paper</div>
     <div class="badge badge-success">Peer Reviewed</div>
-    <div class="badge badge-danger">Oral Presentation</div>
 
-    <p><a class="conference-name" href="https://www.acpr2019.org/" target="_blank">Asian Conference on Pattern
-        Recognition
-        (ACPR2019)</a>
+    <p><a class="conference-name" href="https://sites.google.com/view/automl2019icml/" target="_blank">
+        6th ICML Workshop on Automated Machine Learning (AutoML2019)</a>
     </p>
-    <a href="" onclick="alert('PDF is not available now.');" class="btn btn-secondary">Download PDF</a>
+    <a href="https://www.automl.org/wp-content/uploads/2019/06/automlws2019_Paper12.pdf" target="_blank"
+      class="btn btn-success">Download PDF</a>
     <a class="btn btn-success" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false"
       aria-controls="bibtex">
       Show Bibtex
     </a>
-    <a href="" onclick="alert('The code is not available now.');" class="btn btn-secondary">Experimental Codes</a>
+    <a href="https://github.com/y0z/NMwithPredictiveParallelEvaluation" target="_blank"
+      class="btn btn-success">Experimental Codes</a>
     <div class="collapse" id="bibtex">
       <div class="card card-body">
-        <p class="mb0">@inproceedings{watanabe2019speeding,</p>
-        <p class="mb0">title={Speeding up of the Nelder-Mead Method by Data-driven Speculative Execution},</p>
-        <p class="mb0">author={Shuhei, Watanabe and Yoshihiko, Ozaki and Yoshiaki, Bando and Masaki, Onishi},</p>
-        <p class="mb0">booktitle={Asian Conference on Pattern Recognition (ACPR2019)},</p>
+        <p class="mb0">@inproceedings{ozaki2019accelerating,</p>
+        <p class="mb0">title={Accelerating the Nelder-Mead Method with Predictive Parallel Evaluation},</p>
+        <p class="mb0">author={Yoshihiko, Ozaki and Shuhei, Watanabe and Masaki, Onishi},
+        </p>
+        <p class="mb0">booktitle={6th ICML Workshop on Automated Machine Learning (AutoML2019)},</p>
         <p class="mb0">year={2019}</p>
         <p class="mb0">}</p>
       </div>
     </div>
 
     <p class="mb1"></p>
-
     <h3>Authors</h3>
     <div class="container mb1">
-      <li><b>Shuhei Watanabe</b></li>
       <li>Yoshihiko Ozaki</li>
-      <li>Yoshiaki Bando</li>
+      <li><b>Shuhei Watanabe</b></li>
       <li>Masaki Onishi</li>
     </div>
 
     <h3>Abstract</h3>
     <div class="container" align="justify">
-      <p class="mb2">The performance of machine learning algorithms considerably depends on the hyperparameter
-        configurations.
-        Previous studies reported that the Nelder-Mead (NM) method known as a local search method requires a small
-        number
-        of evaluations to converge and that these properties enable achieving considerable success in the hyperparameter
-        optimization (HPO) of machine learning algorithms for image recognition.
-        However, most evaluations using the NM method need to be implemented sequentially, which requires a large amount
-        of time.
-        To alleviate the problem that the NM method cannot be computed in parallel, we propose a data-driven
-        speculative execution method based on the statistical features of the NM method.
-        We analyze the behaviors of the NM method on several benchmark functions and experimentally demonstrated that
-        the
-        NM method tends to take certain specific operations.
-        The experimental results show that the proposed method reduced the elapsed time by approximately 50% and the
-        number of evaluations by approximately 60% compared to the naive speculative execution. </p>
+      <p class="mb2">
+        The Nelder–Mead (NM) method has been recently proposed for application in hyperparameter optimization (HPO) of
+        deep neural networks. However, the NM method is not suitable
+        for parallelization, which is a serious drawback for its practical application in HPO. In this
+        study, we propose a novel approach to accelerate the NM method with respect to the parallel computing resources.
+        The numerical results indicate that the proposed method is
+        significantly faster and more efficient when compared with the previous naive approaches
+        with respect to the HPO tabular benchmarks.
+      </p>
     </div>
 
     <a class="btn btn-primary" data-toggle="collapse" href="#request-form" role="button" aria-expanded="false"

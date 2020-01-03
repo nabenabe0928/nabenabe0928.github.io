@@ -28,6 +28,10 @@
     color: #777777;
 }
 
+.edu-date {
+    color: #777777;
+}
+
 .row--ellipse{
     display: flex;
     flex-wrap: wrap;

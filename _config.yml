@@ -1,0 +1,14 @@
+repository: nabenabe0928/nabenabe0928.github.io
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: none
+
+theme: jekyll-theme-merlot
+
+url: "https://nabenabe0928.github.io"
+plugins:
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-feed

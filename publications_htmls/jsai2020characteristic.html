@@ -36,82 +36,69 @@
             line-height: 100px;
         }
     </style>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+      $(function() {
+        $("#header").load("../template/header.html");
+        $("#footer").load("../template/footer.html");
+      });
+    </script>
 </head>
 
 <body class="d-flex flex-column" style="min-height: 100vh">
-    <header>
-        <nav class="nabvar nabvar-dark bg-dark">
-            <div class="container">
-                <br>
-                <a class="navbar-brand text-white" href="../index.html">
-                    <font size="+3">Shuhei Watanabe</font>
-                </a>
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu"
-                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="text-white"><i class="fa fa-bars fa-1x"></i></span>
-                </button>
-                <div class="collapse navbar-collapse" id="menu">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link text-white" href="../index.html">Home</a>
-                        <a class="nav-item nav-link text-white" href="../research.html">Research Experiences</a>
-                        <a class="nav-item nav-link text-white" href="../software.html">Softwares</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
+    <div id="header"></div>
+    
     <!-- Research -->
     <div class="container mb-auto">
         <p class="mb1"></p>
         <p class="mb05"><a class="badge badge-default back-to-research" href="../research.html">Back to the list</a></p>
         <h2>The Characteristics Required in Hyperparameter Optimization of Deep Learning Algorithms</h2>
         <!-- 
-      <div class="badge badge-primary">Workshop Paper</div>
-      <div class="badge badge-primary">Journal Paper</div>
-      <div class="badge badge-primary">Book</div>
-      <div class="badge badge-primary">Thesis</div>
-      <div class="badge badge-primary">Invited Talk</div>
+            <div class="badge badge-primary">Workshop Paper</div>
+            <div class="badge badge-primary">Journal Paper</div>
+            <div class="badge badge-primary">Book</div>
+            <div class="badge badge-primary">Thesis</div>
+            <div class="badge badge-primary">Invited Talk</div>
       <div class="badge badge-primary">Conference Paper</div>
       <div class="badge badge-success">Peer Reviewed</div>
       <div class="badge badge-danger">Awarded</div>
     -->
-        <div class="badge badge-warning">Non Peer Reviewed</div>
-        <div class="badge badge-danger">Oral Presentation</div>
+    <div class="badge badge-warning">Non Peer Reviewed</div>
+    <div class="badge badge-danger">Oral Presentation</div>
 
         <p><a class="conference-name" href="https://www.ai-gakkai.or.jp/jsai2020/" target="_blank">Japanese Society of
-                Artificial Intelligence (JSAI2020)</a>
+            Artificial Intelligence (JSAI2020)</a>
         </p>
         <a href="" onclick="alert('PDF is not available now.');" class="btn btn-secondary">Download PDF</a>
         <a class="btn btn-success" data-toggle="collapse" href="#bibtex" role="button" aria-expanded="false"
-            aria-controls="bibtex">
-            Show Bibtex
-        </a>
-        <a href="https://github.com/nabenabe0928/hpo_basement" class="btn btn-success" target="_blank">Experimental
-            Codes</a>
+        aria-controls="bibtex">
+        Show Bibtex
+    </a>
+    <a href="https://github.com/nabenabe0928/hpo_basement" class="btn btn-success" target="_blank">Experimental
+        Codes</a>
         <div class="collapse" id="bibtex">
             <div class="card card-body">
                 <p class="mb0">@inproceedings{watanabe2020characteristics,</p>
-                <p class="mb0">title={The Characteristics Required in Hyperparameter Optimization of Deep Learning
+                    <p class="mb0">title={The Characteristics Required in Hyperparameter Optimization of Deep Learning
                     Algorithms},
                 </p>
                 <p class="mb0">author={Shuhei, Watanabe and Masahiro, Nomura and Masaki, Onishi},</p>
                 <p class="mb0">booktitle={Japanese Society of
                     Artificial Intelligence (JSAI2020)},</p>
-                <p class="mb0">year={2020}</p>
-                <p class="mb0">}</p>
+                    <p class="mb0">year={2020}</p>
+                    <p class="mb0">}</p>
+                </div>
             </div>
-        </div>
-
-        <p class="mb1"></p>
-
-        <h3>Authors</h3>
-        <div class="container mb1">
-            <li><b>Shuhei Watanabe</b></li>
-            <li>Masahiro Nomura</li>
-            <li>Masaki Onishi</li>
-        </div>
-
+            
+            <p class="mb1"></p>
+            
+            <h3>Authors</h3>
+            <div class="container mb1">
+                <li><b>Shuhei Watanabe</b></li>
+                <li>Masahiro Nomura</li>
+                <li>Masaki Onishi</li>
+            </div>
+            
         <h3>Abstract</h3>
         <div class="container" align="justify">
             <p class="mb2">Since the performance of deep learning algorithms depends seriously on the selection of
@@ -127,50 +114,22 @@
                 Finally, we reached the conclusion that hyperparameter methods should be able to deal with
                 ill-conditioned first and then consider non-separable and less important hyperparameters and convexity
                 is a strong assumption on hyperparameter optimization.</p>
-        </div>
-
-        <a class="btn btn-primary" data-toggle="collapse" href="#request-form" role="button" aria-expanded="false"
+            </div>
+            
+            <a class="btn btn-primary" data-toggle="collapse" href="#request-form" role="button" aria-expanded="false"
             aria-controls="request-form">
             Request regarding this paper (Click here to open a request form.)
         </a>
         <div class="collapse" id="request-form">
             <div class="card card-body">
                 <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSePg-rPaiGuXgcnhmsYI55-08s9aCqO8y4Cav1s64ihYbo2Ag/viewform?embedded=true"
-                    width="640" height="1162" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                src="https://docs.google.com/forms/d/e/1FAIpQLSePg-rPaiGuXgcnhmsYI55-08s9aCqO8y4Cav1s64ihYbo2Ag/viewform?embedded=true"
+                width="640" height="1162" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </div>
     </div>
     <p class="mb2"></p>
-
-    <footer>
-        <nav class="nabvar nabvar-dark bg-dark">
-            <div class="container">
-                <br>
-                <p class="mb1"></p>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-4 col-md-4 col-lg-4 text-white">
-                            <p>&copy;2020 Copyright Shuhei Watanabe.</p>
-                        </div>
-                        <div class="col-xs-8 col-md-8 col-lg-8">
-                            <!-- Social media -->
-                            <a href="https://github.com/nabenabe0928" target="_blank" class="btn btn-social btn-github">
-                                <span class="fa fa-github"></span>Github</a>
-                            <a href="https://scholar.google.com/citations?hl=en&user=jqKQ2xoAAAAJ" target="_blank"
-                                class="btn btn-social btn-google">
-                                <span class="fa fa-google"></span>Google Scholar</a>
-                            <a href="https://www.linkedin.com/in/shuhei-watanabe-4a3175194/" target="_blank"
-                                class="btn btn-social btn-linkedin">
-                                <span class="fa fa-linkedin"></span>LinkedIn</a>
-                            <a href="https://qiita.com/nabenabe0928" target="_blank" class="btn btn-success">Qiita</a>
-                        </div>
-                    </div>
-                </div>
-                <br>
-            </div>
-        </nav>
-    </footer>
+    <div id="footer"></div>
 </body>
 
 </html>

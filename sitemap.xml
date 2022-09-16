@@ -1,51 +1,106 @@
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <url>
-        <loc>
-            https://nabenabe0928.github.io/google1ac3247b4c28639b.html
-        </loc>
-        <lastmod>2020-01-04T15:29:30+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://nabenabe0928.github.io/</loc>
-        <lastmod>2020-01-04T15:29:30+00:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://nabenabe0928.github.io/publications_htmls/acpr2019speeding.html
-        </loc>
-        <lastmod>2020-01-04T15:29:30+00:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://nabenabe0928.github.io/publications_htmls/bachelor2017swatanabe.html
-        </loc>
-        <lastmod>2020-01-04T15:29:30+00:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://nabenabe0928.github.io/publications_htmls/icml2019accelerating.html
-        </loc>
-        <lastmod>2020-01-04T15:29:30+00:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://nabenabe0928.github.io/publications_htmls/nips2019warmstart.html
-        </loc>
-        <lastmod>2020-01-04T15:29:30+00:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            https://nabenabe0928.github.io/publications_htmls/prmu2018speed.html
-        </loc>
-        <lastmod>2020-01-04T15:29:30+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://nabenabe0928.github.io/research.html</loc>
-        <lastmod>2020-01-04T15:29:30+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://nabenabe0928.github.io/software.html</loc>
-        <lastmod>2020-01-04T15:29:30+00:00</lastmod>
-    </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>https://nabenabe0928.github.io/</loc>
+  <priority>1.0</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/research.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/mywork.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/medium/cv.pdf</loc>
+  <priority>0.8</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/publications_htmls/aaai2021warm.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/publications_htmls/icpr2020evaluating.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/publications_htmls/gecco2020multiobjective.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/publications_htmls/acpr2019speeding.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/publications_htmls/nips2019warmstart.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/publications_htmls/icml2019accelerating.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/publications_htmls/jsai2020characteristic.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/publications_htmls/prmu2018speed.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/publications_htmls/bachelor2017swatanabe.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/medium/machine-learning.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/medium/deep-learning.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/medium/reinforcement-learning.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/medium/simulation-cg.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/medium/high-performance-computing-with-python.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/medium/statistical-pattern-recognition.pdf</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+<url>
+  <loc>https://nabenabe0928.github.io/index.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-09-09T07:08:54+09:00</lastmod>
+</url>
+
 </urlset>

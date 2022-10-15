@@ -63,6 +63,9 @@
         <a class="nav-link" href="#ws" aria-controls="ws" role="tab" data-toggle="tab">Workshop</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#journal" aria-controls="journal" role="tab" data-toggle="tab">Journal</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#non-peer" aria-controls="non-peer" role="tab" data-toggle="tab">Non-peer reviewed</a>
       </li>
       <li class="nav-item">
@@ -95,8 +98,8 @@
 
             <li>
               <!-- AAAI2021 -->
-              <div><a href="https://ojs.aaai.org/index.php/AAAI/article/view/17109/16916" target="_blank"
-                  class="paper-title">
+              <div><a id="warm2021aaai" href="https://ojs.aaai.org/index.php/AAAI/article/view/17109/16916"
+                  target="_blank" class="paper-title">
                   Warm Starting CMA-ES for Hyperparameter Optimization.</a>
               </div>
               <div class="paper-description">
@@ -115,7 +118,8 @@
 
             <li>
               <!-- ICPR2020 -->
-              <div><a href="https://ieeexplore.ieee.org/document/9412240" target="_blank" class="paper-title">
+              <div><a id="evaluating2020icpr" href="https://ieeexplore.ieee.org/document/9412240" target="_blank"
+                  class="paper-title">
                   Evaluating Initialization of Nelder-Mead Method for Hyperparameter Optimization in Deep Learning.</a>
               </div>
               <div class="paper-description">Shintaro Takenage, <b>Shuhei Watanabe</b>, Masahiro Nomura, Yoshihiko
@@ -127,7 +131,8 @@
 
             <li>
               <!-- GECCO 2020 -->
-              <div><a href="https://dl.acm.org/doi/10.1145/3377930.3389817" target="_blank" class="paper-title">
+              <div><a id="multiobjective2020gecco" href="https://dl.acm.org/doi/10.1145/3377930.3389817" target="_blank"
+                  class="paper-title">
                   Multiobjective Tree-structured Parzen Estimator for Computationally Expensive Optimization
                   Problems.</a>
               </div>
@@ -144,8 +149,8 @@
 
             <!-- ACPR2019 -->
             <li>
-              <div><a href="https://dl.acm.org/doi/abs/10.1007/978-3-030-41404-7_31" target="_blank"
-                  class="paper-title">
+              <div><a id="speeding2019acpr" href="https://dl.acm.org/doi/abs/10.1007/978-3-030-41404-7_31"
+                  target="_blank" class="paper-title">
                   Speeding up of the Nelder-Mead Method by Data-driven Speculative Execution.</a>
               </div>
               <div class="paper-description"><b>Shuhei Watanabe</b>, Yoshihiko Ozaki, Yoshiaki Bando,
@@ -173,7 +178,8 @@
 
             <!-- NIPS GP Workshop -->
             <li>
-              <div><a href="/medium/ctpe-gp-workshop.pdf" target="_blank" class="paper-title">c-TPE: Generalizing
+              <div><a id="ctpe2022gpsmdm" href="/medium/ctpe-gp-workshop.pdf" target="_blank" class="paper-title">c-TPE:
+                  Generalizing
                   Tree-structured Parzen
                   Estimator with Inequality Constraints for Continuous
                   and Categorical Hyperparameter Optimization.</a></div>
@@ -195,8 +201,8 @@
 
             <!-- NIPS MetaLearn Workshop -->
             <li>
-              <div><a href="http://metalearning.ml/2019/papers/metalearn2019-nomura.pdf" target="_blank"
-                  class="paper-title">Warm Starting
+              <div><a id="warm2019meta" href="http://metalearning.ml/2019/papers/metalearn2019-nomura.pdf"
+                  target="_blank" class="paper-title">Warm Starting
                   Method for CMA-ES.</a></div>
               <div class="paper-description">
                 <font color="red">&clubs;</font> Masahiro Nomura, <font color="red">&clubs;</font>
@@ -212,7 +218,8 @@
 
             <!-- ICML AutoML workshop -->
             <li>
-              <div><a href="https://www.automl.org/wp-content/uploads/2019/06/automlws2019_Paper12.pdf" target="_blank"
+              <div><a id="accelerating2019automl"
+                  href="https://www.automl.org/wp-content/uploads/2019/06/automlws2019_Paper12.pdf" target="_blank"
                   class="paper-title">
                   Accelerating the Nelder-Mead Method with Predictive Evaluation.</a></div>
               <div class="paper-description">Yoshihiko Ozaki, <b>Shuhei Watanabe</b>, Masaki Onishi.
@@ -231,6 +238,32 @@
         </ol>
       </div>
 
+      <div role="tabpanel" class="tab-pane" id="journal">
+        <p class="mb15"></p>
+        <ol type="1">
+          <div class="container">
+
+            <li>
+              <!-- JAIR 2022 -->
+              <div><a id="multiobjective2022jair" href="https://www.jair.org/index.php/jair/article/view/13188"
+                  target="_blank" class="paper-title">
+                  Multiobjective Tree-Structured Parzen Estimator.</a>
+              </div>
+              <div class="paper-description">Yoshihiko Ozaki, Yuki Tanigaki, <b>Shuhei Watanabe</b>, Masahiro Nomura,
+                Masaki Onishi.
+                Journal of Artificial Intelligence Research (JAIR2022).
+              </div>
+              <div class="any-description">
+                (<a href="https://www.jair.org/index.php/jair/article/view/13188/26784" target="_blank">pdf</a>),
+                (<a href="https://github.com/y0z/MOTPE_JAIR/tree/master/optuna" target="_blank">code</a>).
+              </div>
+            </li>
+            <hr>
+
+          </div>
+        </ol>
+      </div>
+
       <!-- non-peer reviewd publications -->
       <div role="tabpanel" class="tab-pane" id="non-peer">
         <p class="mb15"></p>
@@ -239,7 +272,8 @@
 
             <!-- JSAI2020 -->
             <li>
-              <div><a href="https://confit.atlas.jp/guide/event/jsai2020/subject/1J3-OS-10-02/detail" target="_blank"
+              <div><a id="characteristics2020jsai"
+                  href="https://confit.atlas.jp/guide/event/jsai2020/subject/1J3-OS-10-02/detail" target="_blank"
                   class="paper-title">The Characteristics
                   Required in
                   Hyperparameter Optimization of Deep Learning Algorithms.</a>
@@ -255,7 +289,9 @@
 
             <!-- PRMU2018 -->
             <li>
-              <div><a href="https://ken.ieice.org/ken/paper/20190117W18i/" target="_blank" class="paper-title">Speed up
+              <div><a id="speed2018prmu" href="https://ken.ieice.org/ken/paper/20190117W18i/" target="_blank"
+                  class="paper-title">Speed
+                  up
                   of
                   Hyperparameter Tuning with Nelder-Mead Method by Parallel Computing.</a>
               </div>

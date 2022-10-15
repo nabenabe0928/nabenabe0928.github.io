@@ -57,7 +57,10 @@
     </p>
     <ul id="MyTabs" class="nav nav-pills nav-fill">
       <li class="nav-item">
-        <a class="nav-link active" href="#confer" aria-controls="confer" role="tab" data-toggle="tab">Conference</a>
+        <a class="nav-link active" href="#new" aria-controls="new" role="tab" data-toggle="tab">New</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#confer" aria-controls="confer" role="tab" data-toggle="tab">Conference</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#ws" aria-controls="ws" role="tab" data-toggle="tab">Workshop</a>
@@ -66,7 +69,7 @@
         <a class="nav-link" href="#journal" aria-controls="journal" role="tab" data-toggle="tab">Journal</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#non-peer" aria-controls="non-peer" role="tab" data-toggle="tab">Non-peer reviewed</a>
+        <a class="nav-link" href="#preprint" aria-controls="preprint" role="tab" data-toggle="tab">Preprint</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#thesis" aria-controls="thesis" role="tab" data-toggle="tab">Thesis</a>
@@ -75,8 +78,41 @@
 
     <!-- The contents of tabs -->
     <div class="tab-content">
+
+      <!-- Workshop publications -->
+      <div role="tabpanel" class="tab-pane active" id="new">
+        <p class="mb15"></p>
+        <ol type="1">
+          <div class="container">
+
+            <!-- NIPS GP Workshop -->
+            <li>
+              <div><a id="ctpe2022gpsmdm" href="/medium/ctpe-gp-workshop.pdf" target="_blank" class="paper-title">c-TPE:
+                  Generalizing
+                  Tree-structured Parzen
+                  Estimator with Inequality Constraints for Continuous
+                  and Categorical Hyperparameter Optimization.</a></div>
+              <div class="paper-description">
+                <b>Shuhei Watanabe</b>, Frank Hutter.
+                Workshop on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems
+                at NeurIPS 2022 (GPSMDM2022).
+                <!--
+                        <p class="mb0">The acceptance rate was 69% (= 58/84).</p>
+                      -->
+              </div>
+              <div class="any-description">
+                (<a href="/medium/ctpe-gp-workshop.pdf" target="_blank">pdf</a>),
+                (<a href="https://github.com/nabenabe0928/constrained-tpe" target="_blank">code</a>),
+                (<a href="/medium/ctpe-poster.pdf" target="_blank">poster</a>).
+              </div>
+            </li>
+            <hr>
+          </div>
+        </ol>
+      </div>
+
       <!-- Conference Publications -->
-      <div role="tabpanel" class="tab-pane active" id="confer">
+      <div role="tabpanel" class="tab-pane" id="confer">
         <p class="mb15"></p>
         <ol type="1">
           <div class="container">
@@ -264,8 +300,8 @@
         </ol>
       </div>
 
-      <!-- non-peer reviewd publications -->
-      <div role="tabpanel" class="tab-pane" id="non-peer">
+      <!-- preprint -->
+      <div role="tabpanel" class="tab-pane" id="preprint">
         <p class="mb15"></p>
         <ol type="1">
           <div class="container">

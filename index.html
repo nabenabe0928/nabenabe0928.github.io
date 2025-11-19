@@ -24,7 +24,6 @@
   <script>
     $(function () {
       $("#header").load("https://nabenabe0928.github.io/template/header.html");
-      $("#footer").load("https://nabenabe0928.github.io/template/footer.html");
     });
   </script>
 </head>
@@ -37,13 +36,13 @@
 
     <!-- The upper most contents for my name and contacts -->
     <p class="mb15"></p>
-    <div class="card container">
-      <div class="row">
-        <div class="col-xs-2 col-md-3 col-lg-2" style="text-align:center;">
-          <p class="mb2"></p>
-          <img src="img/self.jpg" class="circle" width="120" height="120" style="position:relative; top:-15px;">
+    <div class="card p-3 mb-4">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-3 col-lg-2 text-center">
+          <img src="img/self.jpg" alt="Profile Picture" class="img-fluid rounded-circle mb-3 mb-md-0"
+            style="width: 120px; height: 120px; object-fit: cover;">
         </div>
-        <div class="card-body col-xs-8 col-md-8 col-lg-8">
+        <div class="col-12 col-md-9 col-lg-10">
           <h3>Shuhei Watanabe (渡邊修平)</h3>
           <p class="mb0">Research Engineer</p>
           <p class="mb0"><a class="text-dark" href="https://www.preferred.jp/en/" target="_blank">Preferred Networks
@@ -53,19 +52,21 @@
             <br>
           </div>
           <p class="mb0">
-            <a href="https://github.com/nabenabe0928" target="_blank" class="btn btn-social btn-github">
-              <i class="fa fa-github"></i>GitHub
+            <a href="https://github.com/nabenabe0928" target="_blank" class="btn btn-social btn-social-icon btn-github">
+              <i class="fa fa-github"></i>
             </a>
             <a href="https://scholar.google.com/citations?hl=en&user=jqKQ2xoAAAAJ" target="_blank"
-              class="btn btn-social btn-google">
-              <span class="fa fa-google"></span>
-              Google Scholar
+              class="btn btn-social btn-social-icon btn-google">
+              <i class="fa fa-google"></i>
             </a>
             <a href="https://www.linkedin.com/in/shuhei-watanabe-4a3175194/" target="_blank"
-              class="btn btn-social btn-linkedin">
-              <span class="fa fa-linkedin"></span>
-              LinkedIn
+              class="btn btn-social btn-social-icon btn-linkedin">
+              <i class="fa fa-linkedin"></i>
             </a>
+            <a href="https://nabenabe0928.github.io/medium/cv.pdf" target="_blank" class="btn btn-success">2-Page
+              CV</a>
+            <a href="https://nabenabe0928.github.io/medium/long-cv.pdf" target="_blank" class="btn btn-primary">Long
+              CV</a>
           </p>
         </div>
       </div>
@@ -77,38 +78,40 @@
     <div class="container" align="justify">
       <p>
         I am a research engineer at <a href="https://tech.preferred.jp/en/research_areas/data-science-and-automl/"
-          target="_blank">the AutoML group</a> of <a href="https://www.preferred.jp/en/" target="_blank">Preferred
+          class="paper-description" target="_blank">the AutoML group</a> of <a href="https://www.preferred.jp/en/"
+          class="paper-description" target="_blank">Preferred
           Networks Inc</a>.
         Before joining the group, I was studying under the supervision of
-        <a href="http://scholar.google.com/citations?user=YUrxwrkAAAAJ&hl=en" target="_blank">Prof. Frank
+        <a href="http://scholar.google.com/citations?user=YUrxwrkAAAAJ&hl=en" class="paper-description"
+          target="_blank">Prof. Frank
           Hutter</a> at the University of Freiburg in Computer Science department.
         The main interests of my research are practical extensions of blackbox optimization on expensive functions.
         More specifically, I have been tackling multi-objective optimization, constraint optimization,
         meta-learning of hyperparameter optimization, and the interpretation of optimizations.
-        For more details, please check my <a href="https://nabenabe0928.github.io/my-work-list/">Research
-          Experiences</a>.
       </p>
 
       <p class="mb1">
         Prior to the Master course, I finished the Bachelor at the University of Tokyo, Systems Innovation Faculty
         supervised by
-        <a href="https://scholar.google.co.jp/citations?user=qgHho10AAAAJ&hl=en" target="_blank">Prof. Chen Yu</a> in March 2020.
+        <a href="https://scholar.google.co.jp/citations?user=qgHho10AAAAJ&hl=en" class="paper-description"
+          target="_blank">Prof. Chen Yu</a> in
+        March 2020.
         During my Bachelor, I was engaged in the National Institute of Advanced Industrial Science and Technology
-        (<a href="https://www.aist.go.jp/index_en.html" target="_blank">AIST</a>) supervised by
-        <a href="http://onishi-lab.jp/index-e.html" target="_blank">Masaki Onishi</a>.
+        (<a href="https://www.aist.go.jp/index_en.html" class="paper-description" target="_blank">AIST</a>) supervised
+        by
+        <a href="http://onishi-lab.jp/index-e.html" class="paper-description" target="_blank">Masaki Onishi</a>.
+      </p>
 
-        The details of my works are available here (<a href="https://nabenabe0928.github.io/mywork.html">My works</a>).
-        Personal ongoing projects are German and functional analysis learning.
-      </p>
-      <p><a href="https://nabenabe0928.github.io/medium/cv.pdf" target="_blank" class="btn btn-success">Download CV</a>
-      </p>
+      <p class="mb1"><a href="https://nabenabe0928.github.io/my-work-list/" class="btn btn-success">Research
+          Experiences</a></p>
     </div>
     <!-- CV: https://drive.google.com/open?id=155qq3XEwxx_6pt2Nd295wqDZfZjVq4wh -->
 
     <h2>Research Highlight</h2>
     <div class="container">
       <p>I was intensively working on extensions of tree-structured Parzen estimator (TPE).
-        For more details, please check my <a href="https://nabenabe0928.github.io/my-work-list/">publications</a>.
+        For more details, please check my <a href="https://nabenabe0928.github.io/my-work-list/"
+          class="paper-description">publications</a>.
       </p>
       <ul>
         <li>
@@ -117,7 +120,6 @@
               class="text-dark" target="_blank">Tree-Structured Parzen Estimator: Understanding Its Algorithm Components
               and Their Roles for Better
               Empirical Performance</a>.</div>
-          <div class="paper-description">Only preprint exists.</div>
         </li>
         <li>
           <div>Constrained optimization for tree-structured Parzen estimator</div>
@@ -149,81 +151,92 @@
       </ul>
     </div>
 
-    <!-- Volunteers -->
-    <h2>Reviewer</h2>
-
-    <ul>
+    <h2>Notebooks</h2>
+    <ol type="1">
       <div class="container">
         <li>
-          <div>AutoML Conference (2023)</div>
-        </li>
-      </div>
-    </ul>
-
-    <!-- Skills -->
-    <h2>Skills</h2>
-
-    <ul>
-      <div class="container">
-        <li>
-          <div><a href="https://atcoder.jp/users/nabenabe0928" target="_blank" class="text-dark">AtCoder Highest Rating
-              1626</a></div>
-          <div class="paper-description">Top 3--5% among all participants.</div>
-        </li>
-
-        <li>
-          <div>Python (2016 --)</div>
-        </li>
-
-        <li>
-          <div>C++ (2019 --)</div>
-        </li>
-
-        <li>
-          <div>High Performance Computer</div>
-          <div class="paper-description">I used <a href="https://abci.ai/" target="_blank" class="text-dark">ABCI</a>
-            for some papers.
+          <div><a href="https://nabenabe0928.github.io/medium/master-thesis.pdf" target="_blank" class="paper-title">
+              Master thesis: Significant Runtime Reduction for Asynchronous
+              Multi-Fidelity Optimization on Zero-Cost Benchmarks
+            </a>.</div>
+          <div class="paper-description">Master thesis at the University of Freiburg completed on September
+            2023.
           </div>
-        </li>
-
-        <li>
-          <div>Singularity</div>
-          <div class="paper-description">Most experiments on ABCI relied on Singularity.
-          </div>
-        </li>
-
-        <li>
-          <div>Git/GitHub</div>
-          <div class="paper-description">I have <a href="https://github.com/nabenabe0928/coding_rules/tree/main/github"
-              target="_blank" class="text-dark">some rules</a> for the Git commit
-            and a <a href="https://github.com/nabenabe0928/repo-template" target="_blank" class="text-dark">template</a>
-            for smoother and cleaner Python
-            developments.
-          </div>
-        </li>
-
-        <li>
-          <div>LaTeX</div>
-          <div class="paper-description">I have <a href="https://github.com/nabenabe0928/latex-initial-template"
-              target="_blank" class="text-dark">some rules</a> for the LaTeX usage
-            and organized the directory structure for paper writings.
-          </div>
-        </li>
-
-        <li>
-          <div>English C1</div>
-          <div class="paper-description">TOEFL iBT (R29,L25,S22,W24), GRE V152/Q168.</div>
-        </li>
-
-        <li>
-          <div>German B2</div>
         </li>
         <hr>
-    </ul>
+
+        <li>
+          <div><a href="https://nabenabe0928.github.io/medium/machine-learning.pdf" target="_blank" class="paper-title">
+              The Machine Learning course in the University of Freiburg
+            </a></div>
+          <div class="paper-description">My notebook is based on the course offered by J. Prof. Josif Grabocka
+            in the
+            Winter Semester 2020/2021. Note that all the mistakes I could aware of in the course are fixed
+            in this paper.
+          </div>
+        </li>
+        <hr>
+
+        <li>
+          <div><a href="https://nabenabe0928.github.io/medium/deep-learning.pdf" target="_blank" class="paper-title">
+              The Deep Learning course in the University of Freiburg
+            </a></div>
+          <div class="paper-description">My notebook is based on the course offered by Prof. Frank Hutter
+            in the Winter
+            Semester 2020/2021.
+          </div>
+        </li>
+        <hr>
+
+        <li>
+          <div><a href="https://nabenabe0928.github.io/medium/reinforcement-learning.pdf" target="_blank"
+              class="paper-title">
+              The Reinforcement Learning course in the University of Freiburg
+            </a></div>
+          <div class="paper-description">My notebook is based on the course offered by Prof. Joschka
+            Boedecker in the
+            Winter Semester 2020/2021.
+          </div>
+        </li>
+        <hr>
+
+        <li>
+          <div><a href="https://nabenabe0928.github.io/medium/simulation-cg.pdf" target="_blank" class="paper-title">
+              The Simulation in Computer Graphics course in the University of Freiburg
+            </a></div>
+          <div class="paper-description">My notebook is based on the course offered by Prof. Matthias
+            Teschner in the
+            Winter Semester 2020/2021.
+          </div>
+        </li>
+        <hr>
+
+        <li>
+          <div><a href="https://nabenabe0928.github.io/medium/high-performance-computing-with-python.pdf"
+              target="_blank" class="paper-title">
+              The High Performance Computing with Python course in the University of Freiburg</a></div>
+          <div class="paper-description">This submission was written on the Summer semester 2021
+            and the implementation is available
+            <a href="https://github.com/nabenabe0928/high-performance-computing-fluid-dynamics-with-python"
+              target="_blank" class="paper-title">here</a>.
+          </div>
+        </li>
+        <hr>
+
+        <li>
+          <div><a href="https://nabenabe0928.github.io/medium/statistical-pattern-recognition.pdf" target="_blank"
+              class="paper-title">The
+              Statistical Pattern Recognition course in the University of Freiburg</a></div>
+          <div class="paper-description">My notebook is based on the course offered by Prof. Thomas Brox
+            in the Summer Semester 2021.</div>
+        </li>
+        <hr>
+
+      </div>
+    </ol>
 
   </div>
 
-  <div id="footer"></div>
 </body>
 
 </html>

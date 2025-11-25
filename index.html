@@ -204,9 +204,11 @@
             My master thesis is a work on <a href="https://github.com/nabenabe0928/mfhpo-simulator/tree/main"
               class="paper-description" target="_blank">a general job scheduling wrapper</a> for parallel black-box
             optimization.
-            The correctness of the wrapper is guaranteed by mathematics and unit tests. Furthermore, the wrapper was
-            verified using 52 benchmark problems and 8 optimization methods over 30
-            different random seeds with 4 different parallelisms.
+            Since this wrapper needs to be able to handle various parallel processing methods, such as multi-processing,
+            multi-threading, and file (or server)-based synchronization (and of course, I need to understand all of them), the implementation correctness must be
+            guaranteed carefully, where mathematics and unit tests played a pivotal role.
+            Furthermore, the wrapper was verified using 52 benchmark problems and 8 optimization methods over 30
+            different random seeds with 4 different parallelisms, overall 49920 setups.
             The wrapper successfully finished the whole experiment without any errors in 43M CPU seconds, which would
             have taken 58B CPU seconds naively.
           </div>

@@ -48,6 +48,19 @@ STATIC_ENTRIES = [
         "name": "Shuhei Watanabe / Homepage",
         "url": f"{SITE_URL}/",
         "description": "Personal homepage of Shuhei Watanabe, Senior Research Scientist at SB Intuitions Corp.",
+        "inLanguage": "en",
+        "keywords": [
+            "Bayesian Optimization",
+            "Hyperparameter Optimization",
+            "Multi-Objective Optimization",
+            "Constraint Optimization",
+            "Meta-Learning",
+            "Tree-structured Parzen Estimator (TPE)",
+            "Gaussian Processes",
+            "Parallel Computing",
+            "Machine Learning",
+            "Deep Learning",
+        ],
     },
     {
         "@type": "Person",
@@ -107,6 +120,7 @@ def _build_article_entry(pub: dict) -> dict:
 
     entry["publisher"] = {"@type": "Organization", "name": publisher_name}
     entry["datePublished"] = f"{pub['publishedYear']}-{pub['publishedMonth']:02d}"
+    entry["inLanguage"] = "en"
 
     return entry
 

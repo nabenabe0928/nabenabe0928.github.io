@@ -45,7 +45,7 @@ INCLUDED_VENUE_TYPES = {"Conference", "Journal"}
 STATIC_ENTRIES = [
     {
         "@type": "WebSite",
-        "name": "Shuhei Watanabe | Optuna Core Developer & Robotics and Bayesian Optimization Researcher",
+        "name": "Shuhei Watanabe | Optuna Core Dev. / Robotics & Bayesian Optimization Researcher",
         "url": f"{SITE_URL}/",
         "description": "Portfolio of Shuhei Watanabe, Senior Research Scientist at SB Intuitions Corp., Previously an Optuna Core Developer and Bayesian Optimization Researcher.",
         "inLanguage": "en",
